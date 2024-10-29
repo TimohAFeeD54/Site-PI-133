@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стив Джобс</title>
     <link rel="stylesheet" href="Css/style.css">
+<meta property="og:title" content="Стив Джобс">
+<meta property="og:site_name" content="Сайт ">
+<meta property="og:url" content="https://TF54.ru">
+<meta property="og:description" content="Сайт истории создателя Aplle">
 </head>
 <body>
     <header>
@@ -16,6 +20,7 @@
                 <ol id="tf">
                     <li><a id="tron" href="#About"> Введение </a></li>
                     <li><a id="chto" href="#Articles">Информация</a></li>
+                    <li> <a href="#Callcenter">Обратная связь</a></li>
                 </ol>
             </nav>
     </header>
@@ -38,6 +43,41 @@
         <li><a href="Article 3.html">Интересные факты</a></li>
         <li class="termins"><a href="Article 4.html">Cписок терминов</a></li>
     </ol>
+    </section>
+    <section class="Callcenter" id="Callcenter">
+`       <h2>Обратная связь </h2>
+<form id="form">
+    <div>
+        <label for="login">Логин</label><br>
+        <input type="email" id="ligin" placeholder="Логин"><br>
+    </div>
+    <div>
+        <label for="pass">Имя</label><br>
+        <input type="text" id="pass" placeholder="Имя"><br>
+    </div>
+    <div>
+        <label for="tel">Телефон</label><br>
+        <input type="tel" >
+    </div>
+    <div>
+        <label for="loh">Запомнить меня </label>
+        <input type="checkbox" id="loh"><br>
+    </div>
+    <div>
+        <label for="topic">Тема</label>
+        <select name="topic" id="topic">
+            <option value="1">Заказать услугу</option>
+            <option value="2">Нашли баг</option>
+        </select>
+    </div>
+    <div>
+        <label for="textarea">Текст обращения</label>
+        <textarea name="textarea" id="textarea"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Отправить">
+    </div>
+</form>
     </section>
     </main>
     <footer>

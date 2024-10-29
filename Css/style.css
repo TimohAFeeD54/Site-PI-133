@@ -120,8 +120,8 @@ footer img:nth-child(1){
     border: 3px solid blue;
 }
 
-.ogurec + .pomidor {
-    margin:auto 100px;
+.ogurec+.pomidor {
+    margin:100px;
 }
 
 .tablo{
@@ -136,8 +136,10 @@ footer img:nth-child(1){
 }
 
 .tablo td:nth-child(3){
-    color: blue;
     font-weight: bold;
+}
+#tablet tr :first-child {
+    background-color:blue;
 }
 
 .tablo tr:nth-child(odd){
@@ -147,6 +149,10 @@ footer img:nth-child(1){
 .tablo tr :nth-child(odd) td{
     border-bottom: 1px black;
 }
+.tablo tbody:last-child {
+    background-color: blue;
+}
+
 
 #form {
     width: 300px;
@@ -164,7 +170,11 @@ footer img:nth-child(1){
 }
 
 #form input[type = 'text'],
-#form input[type = 'password']{
+#form input[type = 'password'],
+#form input[type = 'tel'],
+#form input[type = 'email'],
+#form textarea
+{
     background-color: blanchedalmond;
     border: none;
     border-bottom: 1px solid darkblue;
@@ -174,3 +184,4 @@ footer img:nth-child(1){
 #form input[type = 'password']:hover{
     background-color: rgba(255, 235, 205, 0.526);
 }
+
