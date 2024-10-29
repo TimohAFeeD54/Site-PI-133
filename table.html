@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <table class="tablo">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Кол-во</th>
+                <th>Стоимость</th>
+                <th>Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Кириешки</td>
+                <td>10</td>
+                <td>5</td>
+                <td>50</td>
+                <td rowspan="3">410</td>
+            </tr>
+            <tr>
+                <td>Чипсеки</td>
+                <td>50</td>
+                <td>2</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Кыр сосичка</td>
+                <td>100</td>
+                <td>4</td>
+                <td>400</td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="form">
+        <label for="login">попустите лоха</label><br>
+        <input type="text" id="ligin" required placeholder="Имя лоха"><br>
+        <label for="pass">Подтверждение лоха</label><br>
+        <input type="password" id="pass" required placeholder="password"><br>
+        <label for="loh">Точно лох?</label>
+        <input type="checkbox" id="loh"><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
